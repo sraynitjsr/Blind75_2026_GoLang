@@ -22,4 +22,13 @@ func main() {
 
 	fmt.Println("\nInside 05 - Maximum Sum Sub Array Problem")
 	blind75.FiveMaximumSumSubArray()
+
+	fmt.Println("\nInside 06 - Maximum Product Sub Array Problem")
+	blind75.SixMaximumProductSubArray()
+
+	fmt.Println("\nInside 07 - Container With Maximum Water Problem")
+	blind75.SevenContainerWithMaximumWater()
+
+	fmt.Println("\nInside 08 - Rain Water Trapping Problem")
+	blind75.EightTotalWaterByAllConatiners()
 }
