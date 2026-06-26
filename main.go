@@ -43,4 +43,7 @@ func main() {
 
 	fmt.Println("\nInside 12 - Maximum Consecutive Ones With Atmost K Flips Allowed Problem")
 	TweleveMaxConsecutiveOnes()
+
+	fmt.Println("\nInside 13 - Valid Anagram or Not Problem")
+	FifteenVallidAnagram()
 }
