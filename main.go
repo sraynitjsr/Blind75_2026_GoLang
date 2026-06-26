@@ -2,39 +2,42 @@ package main
 
 import (
 	"fmt"
-	"sray/blind75"
+	. "sray/blind75"
 )
 
 func main() {
 	fmt.Println("Blind75 Beast - GoLang DSA")
 
 	fmt.Println("\nInside 01 - Two Sum Problem")
-	blind75.OneTwoSum()
+	OneTwoSum()
 
 	fmt.Println("\nInside 02 - Stock Buy Sell Problem")
-	blind75.TwoStockBuySell()
+	TwoStockBuySell()
 
 	fmt.Println("\nInside 03 - Contains Duplicate Problem")
-	blind75.ThreeContainsDuplicate()
+	ThreeContainsDuplicate()
 
 	fmt.Println("\nInside 04 - Product of Array Except Self Problem")
-	blind75.FourArrayProductExceptSelf()
+	FourArrayProductExceptSelf()
 
 	fmt.Println("\nInside 05 - Maximum Sum Sub Array Problem")
-	blind75.FiveMaximumSumSubArray()
+	FiveMaximumSumSubArray()
 
 	fmt.Println("\nInside 06 - Maximum Product Sub Array Problem")
-	blind75.SixMaximumProductSubArray()
+	SixMaximumProductSubArray()
 
 	fmt.Println("\nInside 07 - Container With Maximum Water Problem")
-	blind75.SevenContainerWithMaximumWater()
+	SevenContainerWithMaximumWater()
 
 	fmt.Println("\nInside 08 - Rain Water Trapping Problem")
-	blind75.EightTotalWaterByAllConatiners()
+	EightTotalWaterByAllConatiners()
 
 	fmt.Println("\nInside 09 - Longest Non Repeating String Length Problem")
-	blind75.NineLongestNonRepeatingString()
+	NineLongestNonRepeatingString()
 
-	fmt.Println("\nInside 10 - Longest Non Repeating String With Atmost K Distinct Elements")
-	blind75.TenLengthOfLongestSubstringKDistinct()
+	fmt.Println("\nInside 10 - Longest Non Repeating String With Atmost K Distinct Elements Problem")
+	TenLengthOfLongestSubstringKDistinct()
+
+	fmt.Println("\nInside 11 - Maximum Consecutive Ones Problem")
+	ElevenMaxConsecutiveOnes()
 }
