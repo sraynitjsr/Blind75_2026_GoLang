@@ -34,4 +34,7 @@ func main() {
 
 	fmt.Println("\nInside 09 - Longest Non Repeating String Length Problem")
 	blind75.NineLongestNonRepeatingString()
+
+	fmt.Println("\nInside 10 - Longest Non Repeating String With Atmost K Distinct Elements")
+	blind75.TenLengthOfLongestSubstringKDistinct()
 }
