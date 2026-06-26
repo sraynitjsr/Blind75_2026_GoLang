@@ -19,4 +19,7 @@ func main() {
 
 	fmt.Println("\nInside 04 - Product of Array Except Self Problem")
 	blind75.FourArrayProductExceptSelf()
+
+	fmt.Println("\nInside 05 - Maximum Sum Sub Array Problem")
+	blind75.FiveMaximumSumSubArray()
 }
