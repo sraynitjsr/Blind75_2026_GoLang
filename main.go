@@ -31,4 +31,7 @@ func main() {
 
 	fmt.Println("\nInside 08 - Rain Water Trapping Problem")
 	blind75.EightTotalWaterByAllConatiners()
+
+	fmt.Println("\nInside 09 - Longest Non Repeating String Length Problem")
+	blind75.NineLongestNonRepeatingString()
 }
