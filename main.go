@@ -46,4 +46,7 @@ func main() {
 
 	fmt.Println("\nInside 13 - Valid Anagram or Not Problem")
 	FifteenVallidAnagram()
+
+	fmt.Println("\nInside 14 - Group Anagrams Problem")
+	FourteenGroupAnagrams()
 }
