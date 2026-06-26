@@ -40,4 +40,7 @@ func main() {
 
 	fmt.Println("\nInside 11 - Maximum Consecutive Ones Problem")
 	ElevenMaxConsecutiveOnes()
+
+	fmt.Println("\nInside 12 - Maximum Consecutive Ones With Atmost K Flips Allowed Problem")
+	TweleveMaxConsecutiveOnes()
 }
