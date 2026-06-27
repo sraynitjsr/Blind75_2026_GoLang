@@ -52,4 +52,7 @@ func main() {
 
 	fmt.Println("\nInside 15 - Merge Intervals Problem")
 	FifteenMergeInterval()
+
+	fmt.Println("\nInside 16 - Valid Parentheses Problem")
+	SixteenValidParantheses()
 }
