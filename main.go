@@ -49,4 +49,7 @@ func main() {
 
 	fmt.Println("\nInside 14 - Group Anagrams Problem")
 	FourteenGroupAnagrams()
+
+	fmt.Println("\nInside 15 - Merge Intervals Problem")
+	FifteenMergeInterval()
 }
