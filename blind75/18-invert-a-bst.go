@@ -8,40 +8,40 @@ type BST1 struct {
 	Right *BST1
 }
 
-func Insert(root *BST1, val int) *BST1 {
+func insert1(root *BST1, val int) *BST1 {
 	if root == nil {
 		return &BST1{Val: val}
 	}
 
 	if val < root.Val {
-		root.Left = Insert(root.Left, val)
+		root.Left = insert1(root.Left, val)
 	} else {
-		root.Right = Insert(root.Right, val)
+		root.Right = insert1(root.Right, val)
 	}
 
 	return root
 }
 
-func Invert(root *BST1) *BST1 {
+func invert(root *BST1) *BST1 {
 	if root == nil {
 		return nil
 	}
 
 	root.Left, root.Right = root.Right, root.Left
 
-	Invert(root.Left)
-	Invert(root.Right)
+	invert(root.Left)
+	invert(root.Right)
 
 	return root
 }
 
-func InOrder(root *BST1) {
+func inOrder1(root *BST1) {
 	if root == nil {
 		return
 	}
-	InOrder(root.Left)
+	inOrder1(root.Left)
 	fmt.Print(root.Val, " ")
-	InOrder(root.Right)
+	inOrder1(root.Right)
 }
 
 func EighteenInvertBST() {
@@ -49,16 +49,16 @@ func EighteenInvertBST() {
 
 	values := []int{4, 2, 7, 1, 3, 6, 9}
 	for _, v := range values {
-		root = Insert(root, v)
+		root = insert1(root, v)
 	}
 
 	fmt.Print("Original Tree (InOrder): ")
-	InOrder(root)
+	inOrder1(root)
 	fmt.Println()
 
-	root = Invert(root)
+	root = invert(root)
 
-	fmt.Print("Inverted Tree (InOrder): ")
-	InOrder(root)
+	fmt.Print("inverted Tree (InOrder): ")
+	inOrder1(root)
 	fmt.Println()
 }
