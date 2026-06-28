@@ -69,5 +69,5 @@ func main() {
 	TwentyBSTInOrderTraversal()
 
 	fmt.Println("\nInside 21 - Flatten Deeply Nested Array Problem")
-	FlattenDeeplyNestedArray()
+	TwentyOneFlattenDeeplyNestedArray()
 }
