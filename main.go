@@ -64,4 +64,7 @@ func main() {
 
 	fmt.Println("\nInside 19 - Finding Key in A BST Problem")
 	NinteenInvertBST()
+
+	fmt.Println("\nInside 20 - BST InOrder Traversal Problem")
+	TwentyBSTInOrderTraversal()
 }
