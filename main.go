@@ -58,4 +58,7 @@ func main() {
 
 	fmt.Println("\nInside 17 - Kth Smallest Element in BST Problem")
 	SeventeenKthSmallestInBST()
+
+	fmt.Println("\nInside 18 - Invert A BST Problem")
+	EighteenInvertBST()
 }
