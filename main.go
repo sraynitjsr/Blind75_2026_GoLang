@@ -70,4 +70,7 @@ func main() {
 
 	fmt.Println("\nInside 21 - Flatten Deeply Nested Array Problem")
 	TwentyOneFlattenDeeplyNestedArray()
+
+	fmt.Println("\nInside 22 - Move Zeros Problem")
+	TwentyTwoMoveZeros()
 }
