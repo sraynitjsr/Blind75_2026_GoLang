@@ -25,3 +25,5 @@ func trap(height []int) int {
 func EightTotalWaterByAllConatiners() {
 	fmt.Println("Total Water By Rain Water Trapping is", trap([]int{0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1}))
 }
+
+// Done

@@ -16,3 +16,5 @@ func TwoStockBuySell() {
 
 	fmt.Println("Maximum Profit is", maxProfit(prices))
 }
+
+// Done

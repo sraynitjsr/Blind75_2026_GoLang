@@ -28,3 +28,5 @@ func FifteenVallidAnagram() {
 	fmt.Printf("The Strings %v and %v Are Anagrams or Not => %v", "anagram", "nagaram", isAnagram("nagaram", "anagram"))
 	fmt.Println()
 }
+
+// Done

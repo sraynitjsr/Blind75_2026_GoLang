@@ -17,3 +17,5 @@ func lengthOfLongestSubstring(s string) int {
 func NineLongestNonRepeatingString() {
 	fmt.Println("Longest Non Repeating Sub String Length is", lengthOfLongestSubstring("pwwkew"))
 }
+
+// Done

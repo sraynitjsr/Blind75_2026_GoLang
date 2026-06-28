@@ -19,3 +19,5 @@ func OneTwoSum() {
 
 	fmt.Println("Requires Indeces Are", twoSum(mySlice, target))
 }
+
+// Done

@@ -22,3 +22,5 @@ func tweleveMaxConsecutiveOnesKFlipsAllowed(nums []int, k int) int {
 func TweleveMaxConsecutiveOnes() {
 	fmt.Println("Maximum Consecutive 1s With Atmost K Flips Allowed is", tweleveMaxConsecutiveOnesKFlipsAllowed([]int{1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 0}, 2))
 }
+
+// Done

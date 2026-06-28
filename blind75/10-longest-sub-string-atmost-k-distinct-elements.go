@@ -21,3 +21,5 @@ func lengthOfLongestSubstringKDistinct(s string, k int) int {
 func TenLengthOfLongestSubstringKDistinct() {
 	fmt.Println("Longest Sub String With Atmost K Distinct Elements is", lengthOfLongestSubstringKDistinct("abcadcacacaca", 3))
 }
+
+// Done

@@ -18,3 +18,5 @@ func maxConsecutiveOnes(nums []int) int {
 func ElevenMaxConsecutiveOnes() {
 	fmt.Println("Maximum Consecutive 1s Sub Array Length is", maxConsecutiveOnes([]int{1, 1, 0, 1, 1, 1}))
 }
+
+// Done

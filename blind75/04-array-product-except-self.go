@@ -29,3 +29,5 @@ func FourArrayProductExceptSelf() {
 	fmt.Printf("Product of %v is %v", mySlice, productExceptSelf(mySlice))
 	fmt.Println()
 }
+
+// Done

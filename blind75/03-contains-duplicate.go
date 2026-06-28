@@ -21,3 +21,5 @@ func ThreeContainsDuplicate() {
 
 	fmt.Println("Contains Dupicate - ", containsDuplicate(nums))
 }
+
+// Done

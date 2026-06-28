@@ -21,3 +21,5 @@ func maxProduct(nums []int) int {
 func SixMaximumProductSubArray() {
 	fmt.Println("Maximum Product is", maxProduct([]int{2, 3, -2, 4}))
 }
+
+// Done
