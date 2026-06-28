@@ -29,10 +29,11 @@ func moveZerosToBegin(nums []int) []int {
 }
 
 func TwentyTwoMoveZeros() {
-	nums1 := []int{0, 1, 0, 3, 12}
-	nums2 := []int{0, 1, 0, 3, 12}
+	nums := []int{0, 1, 0, 3, 12}
 
-	fmt.Println("Original:", nums1)
-	fmt.Println("Move Zeroes to End:  ", moveZerosToEnd(nums1))
-	fmt.Println("Move Zeroes to Start:", moveZerosToBegin(nums2))
+	fmt.Println("Original:", nums)
+
+	fmt.Println("Move Zeroes to Start:", moveZerosToBegin(nums))
+
+	fmt.Println("Move Zeroes to End:  ", moveZerosToEnd(nums))
 }
