@@ -73,4 +73,7 @@ func main() {
 
 	fmt.Println("\nInside 22 - Move Zeros Problem")
 	TwentyTwoMoveZeros()
+
+	fmt.Println("\nInside 23 - 3 Sum Problem")
+	TwentyThree3Sum()
 }
