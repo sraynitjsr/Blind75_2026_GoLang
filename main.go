@@ -67,4 +67,7 @@ func main() {
 
 	fmt.Println("\nInside 20 - BST InOrder Traversal Problem")
 	TwentyBSTInOrderTraversal()
+
+	fmt.Println("\nInside 21 - Flatten Deeply Nested Array Problem")
+	FlattenDeeplyNestedArray()
 }
